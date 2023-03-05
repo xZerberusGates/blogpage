@@ -65,6 +65,19 @@ h4 {
 	border: 2px solid rgb(91, 90, 91);
 }
 
+.card {
+	margin: 0.5em auto;
+	background-color: #1c2d56;
+	padding: 0.3em 0.3em;
+	border-radius: 3%;
+	width: 97%;
+	margin-bottom: 0.7em;
+}
+
+.card p {
+	color: #919cb5;
+}
+
 .main-header {
 	border-bottom: 1px solid rgb(79, 52, 85);
 	background-color: #182952;
@@ -138,4 +151,21 @@ h4 {
 .github-link {
 	color: rgb(166, 92, 231);
 	text-decoration: none;
+}
+
+.code-snippet {
+	width: 40%;
+	object-fit: fill;
+	height: 10em;
+	transition: transform 0.25s ease;
+	cursor: zoom-in;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"]:checked ~ label > .code-snippet {
+	transform: scale(1.5);
+	cursor: zoom-out;
 }
