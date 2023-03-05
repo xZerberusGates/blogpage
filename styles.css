@@ -80,7 +80,7 @@ h4 {
 }
 
 .card h4 {
-	border-bottom: 1px solid rgb(79, 52, 85);
+	border-bottom: 1px solid #7b95b3;
 }
 
 .main-header {
@@ -169,6 +169,15 @@ h4 {
 	height: 10em;
 	transition: transform 0.25s ease;
 	cursor: zoom-in;
+}
+
+p strong .link-about-page {
+	color: #7b95b3;
+	text-decoration: none;
+}
+
+.link-about-page:hover {
+	color: rgb(231, 164, 92);
 }
 
 input[type="checkbox"] {
