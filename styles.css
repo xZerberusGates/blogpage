@@ -159,7 +159,11 @@ h4 {
 	text-decoration: none;
 }
 
-.code-snippet {
+.code-snippet,
+.code-snippet1,
+.code-snippet2,
+.code-snippet3,
+.code-snippet4 {
 	width: 40%;
 	object-fit: fill;
 	height: 10em;
@@ -172,6 +176,26 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked ~ label > .code-snippet {
+	transform: scale(1.5);
+	cursor: zoom-out;
+}
+
+input[type="checkbox"]:checked ~ label > .code-snippet1 {
+	transform: scale(1.5);
+	cursor: zoom-out;
+}
+
+input[type="checkbox"]:checked ~ label > .code-snippet2 {
+	transform: scale(1.5);
+	cursor: zoom-out;
+}
+
+input[type="checkbox"]:checked ~ label > .code-snippet3 {
+	transform: scale(1.5);
+	cursor: zoom-out;
+}
+
+input[type="checkbox"]:checked ~ label > .code-snippet4 {
 	transform: scale(1.5);
 	cursor: zoom-out;
 }
