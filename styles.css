@@ -76,6 +76,11 @@ h4 {
 
 .card p {
 	color: #919cb5;
+	margin-bottom: 0.945em;
+}
+
+.card h4 {
+	border-bottom: 1px solid rgb(79, 52, 85);
 }
 
 .main-header {
@@ -132,6 +137,7 @@ h4 {
 
 .html-tag-list li a:visited {
 	text-decoration: none;
+	color: rgb(231, 164, 92);
 }
 .html-tag-list li a:hover {
 	color: rgb(166, 92, 231);
