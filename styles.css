@@ -124,3 +124,18 @@ h4 {
 	color: rgb(166, 92, 231);
 	text-decoration: none;
 }
+
+.footer {
+	font-size: 0.8em;
+	border-top: 1px solid rgb(91, 90, 91);
+	padding: 1em 1em;
+}
+
+.footer p {
+	text-indent: 0;
+}
+
+.github-link {
+	color: rgb(166, 92, 231);
+	text-decoration: none;
+}
